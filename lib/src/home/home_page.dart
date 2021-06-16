@@ -42,7 +42,8 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: false,
         backgroundColor: Colors.white,
       ),
-      body: ListView.builder(
+      body: ListView.separated(
+        separatorBuilder: (context, index) => Divider(),
         itemCount: controller.lastChats.length,
         itemBuilder: (context, index) => ContactCard(
           chatData: controller.lastChats[index],

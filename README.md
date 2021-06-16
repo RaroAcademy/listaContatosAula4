@@ -1,6 +1,6 @@
 # lista_contatos
 
-A new Flutter project.
+Em nossa 4º aula do RaroAcademy de Flutter fizemos um ListTile de contatos um pouco mais personalizado e indo mais a fundo nos nossos componentes básicos !
 
 ## Getting Started
 
